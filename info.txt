@@ -1,0 +1,28 @@
+"Mood Guessing Game"
+A satisfability problem based on Groove's algorithm
+Targeted audience: anyone who wants to play a simple guessing game for fun (age 5+)
+
+Description:
+1 person run the function with some conditions depending on his/her/their mood, for example
+sad, angry 
+setting also the number of probes run (it can be set randomly for more fun)
+and then the same person reads the output mood state in front of other people (colleges), for example 
+irritated, sad
+Every participant decide what he thinks is true and what is not observing the person's expressions and behaviour
+in this example the part about being sad is true, but the part about being irritated is not
+for each good guess you get 1 point
+finally the turn ends and next person does the same
+After each participant's turns end a person with a highest score wins.
+
+We can change the difficulty of the game by changing the number of qubits used - more qubits mean more possible mood states to guess from.
+
+The probability of a good guess depends on our ability to perceive other people's emotions accurately, how good we are at it,
+and guessing is by definition prone to errors.
+the probability of assigning the words properly depends on the number of probes that we run
+and it is never perfect even if we have a lot of probes (just as even if we have spent a lot of time studying humans
+and we are good at it it doesn't mean we will always be right)
+
+I wanted to make some parallel because I think it's more fun if we have one but of course it doesn't mean anything.
+
+This simple game uses the interference and also uses the inaccuracy which comes with few probes (and growing accuracy with
+more probes) as very important components.
